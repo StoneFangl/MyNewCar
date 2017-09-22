@@ -18,8 +18,8 @@ import retrofit2.Retrofit;
 @Singleton
 @Component(modules = {AppModel.class})
 public interface AppComponent {
+
     Application application();
-    String baseUrl();
 
     OkHttpClient okHttpClient();
 

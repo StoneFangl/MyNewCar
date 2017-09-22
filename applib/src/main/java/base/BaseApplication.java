@@ -18,7 +18,7 @@ public class BaseApplication extends Application {
 
     public void onCreate() {
         super.onCreate();
-        String baseUrl = "";
+        String baseUrl = "https://app.kuaikuaizuche.com";
         mAppComponent = DaggerAppComponent.builder().appModel(new AppModel(this, baseUrl)).build();
     }
 
